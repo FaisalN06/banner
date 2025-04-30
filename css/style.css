@@ -133,4 +133,13 @@ button:hover {
     width: 80px;
     height: 80px;
   }
+
+  .text-section {
+
+  max-width: 449px;
+  max-height: 582px;
+  margin-top: 169px;
+  margin: auto;
+
+  }
 }
