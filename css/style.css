@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #2F2F2F;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.text-section {
+  max-width: 449px;
+  max-height: 582px;
+  margin-top: 169px;
+  margin-left: 132px;
+  gap: 24px;
+}
+
+h1 {
+  max-width: 370px;
+  max-height: 324px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.pink {
+  color: #f9a8d4;
+}
+
+.blue {
+  color: #60a5fa;
+}
+
+.green {
+  color: #34d399;
+}
+
+p {
+  margin-top: 24px;
+  color: #e5e7eb;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+button {
+  max-width: 182px;
+  max-height: 66px;
+  background-color: #fff;
+  color: #232323;
+  padding: 24px 48px 24px 48px;
+  border: none;
+  font-weight: 400;
+  border-radius: 36px;
+  font-size: 24px;
+  line-height: 18px;
+  word-spacing: 28px;
+  letter-spacing: 0;
+  margin-top: 48px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #687897;
+}
+
+.grid-section {
+  max-width: 742px;
+  max-height: 792px;
+  margin-top: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.grid-item {
+  width: 172px;
+  height: 192px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .grid-item {
+    width: 80px;
+    height: 80px;
+  }
+}
